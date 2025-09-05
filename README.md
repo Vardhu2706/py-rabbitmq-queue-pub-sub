@@ -37,9 +37,10 @@ Diagram:
    python receive_logs.py
    ```
 3. Publish a log message:
-   `    python emit_log.py "info: This is a log message."
-   `
-   All running consumers will print the log message.
+    ```bash
+       python emit_log.py "info: This is a log message."
+    ```
+All running consumers will print the log message.
 
 ## Reference
 
